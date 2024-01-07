@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /subscribe/
+permalink: /cayman_portfolio/subscribe/
 ---
 
 # Subscribe
