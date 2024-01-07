@@ -20,11 +20,13 @@
     <header class="page-header" role="banner">
       
     <nav>
-      <ul>
-        {% for item in site.data.menu %}
-        <li><a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a></li>
-        {% endfor %}
-      </ul>
+      <h1>
+        <ul>
+          {% for item in site.data.menu %}
+          <li><a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </h1>
     </nav>
 
     <style>
