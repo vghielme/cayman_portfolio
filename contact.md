@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /contact/
+permalink: /cayman_portfolio//contact/
 ---
 
 # Contact
