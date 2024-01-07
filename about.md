@@ -1,11 +1,6 @@
 ---
 layout: default
-title: About
-description: Sharing about information
+permalink: /about/
 ---
 
-## Welcome to another page
-
-Add in about information 
-
-[back](./)
+# About
