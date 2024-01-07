@@ -1,3 +1,6 @@
+remote_theme: pages-themes/cayman@v0.2.0
+
+
 title: Victoria Ghielmetti's Data Analytics Portfolio
 description: A place to showcase my skills.
 ##show_downloads: true
