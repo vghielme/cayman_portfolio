@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /about/
+permalink: /cayman_portfolio/about/
 ---
 
 # About
