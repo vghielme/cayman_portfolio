@@ -4,4 +4,4 @@ plugins:
 
 title: Victoria Ghielmetti's Data Analytics Portfolio
 description: A place to showcase my skills.
-show_downloads: true
+##show_downloads: true
