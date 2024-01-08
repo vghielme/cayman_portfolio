@@ -20,38 +20,6 @@
         <!--a id="skip-to-content" href="#content">Skip to the content.</a>-->
 
     <header class="page-header" role="banner">
-      
-      
-      <nav>
-        <h3>
-          <ul>
-            {% for item in site.data.menu %}
-            <li><a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a></li>
-            {% endfor %}
-          </ul>
-        </h3>
-      </nav>
-  
-      <style>
-        nav ul {
-          display: flex;
-          list-style: none;
-        }
-        nav ul li {
-          margin-left: 15px;
-        }
-        nav ul li a {
-          text-decoration: none;
-          color: white;'
-          text-align: right; <!--test if text-align should be here-->
-        }
-        nav ul li a:hover {
-          text-decoration: underline;
-        }
-        .active {
-          text-decoration: underline;
-        }
-      </style>
         
         <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
